@@ -1,5 +1,5 @@
 <?php
-main::start();
+main::start('sample1.csv');
 class main
 {
     static public function start($filename)
