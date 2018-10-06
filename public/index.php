@@ -14,9 +14,17 @@ class main
 class csv
 {
     static public function getRecords($filename)
-    {}
+    {
+    }
 }
 
+class record
+{
+    public function __construct(Array $fields = null, Array $values = null)
+    {
+
+    }
+}
 class html
 {
     public static function build_table($array)
